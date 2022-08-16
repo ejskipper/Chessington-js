@@ -12,6 +12,7 @@ import King from '../../engine/pieces/king';
 let boardUI;
 let board;
 
+// A comment in my file
 function squareToPositionString(square) {
     const letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
     return letters[square.col] + (square.row + 1).toString();
